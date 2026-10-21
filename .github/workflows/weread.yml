@@ -26,7 +26,7 @@ on:
         required: false
         default: '{}'
   schedule:
-    - cron: '29 16 * * *'
+    - cron: '29 */4 * * *'
 
 
 permissions:
